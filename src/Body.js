@@ -1,6 +1,7 @@
 import pizza from './assets/choco-pizza.png';
 import React, { Component } from 'react';
 import './home.css';
+import list from './assets/list-bg.png'
 import printIcon from './assets/print-icon.png';
 class Body extends Component {
     render() { 
@@ -25,7 +26,10 @@ class Body extends Component {
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. halve all of the figd and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. halve all of the figd and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
     </section>
-    
+    <section>
+        <img class="ingredients" src={list} slt="ingredients-list">
+        </img>
+    </section>
             </main>
          );
     }

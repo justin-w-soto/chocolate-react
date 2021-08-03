@@ -22,7 +22,7 @@ class Header extends Component {
                         <h4> THE BEST FOOD BLOB ON THE WEB </h4>
                     </div>
                 </div>
-                <nav>
+                <nav className="nav-icons">
                     <img src={fbIcon} alt="Facebook" className="Icon"/>
                     <img src={twitterIcon} alt="Twitter" className="Icon"/>
                     <img src={gpIcon} alt="Google" className="Icon"/>
@@ -32,6 +32,7 @@ class Header extends Component {
                     <img src={rssIcon} alt="RSS" className="Icon"/>
                     <img src={mailIcon} alt="Email" className="Icon"/>
                 </nav>
+                <div><img src={hrFancy} alt="line-break"/></div>
             </header>
           );
     }

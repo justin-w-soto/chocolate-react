@@ -3,17 +3,20 @@ import Header from './Header.js';
 import Body from './Body.js';
 
 
-
-
-class App extends Component {
-  render() { 
+function App() {
     return ( 
-     <Header />
-     
-     );
+      <div className="App">
+     <Header/>
+     <Body>
+       
+     </Body>
+     </div>
+ );
   }
-}
+
  
+
+
 export default App;
 
 

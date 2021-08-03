@@ -1,6 +1,6 @@
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 }
 h2 {
@@ -19,6 +19,10 @@ footer img {
     margin-right: auto;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
 /* CLASSES */
 
 .title {
@@ -59,34 +63,11 @@ footer img {
     float:right;    
 }
 
-.iconz .icon-section img{
-    
-    margin-right: 1px;
-    display: inline-block;
+.nav-icons {
+    text-align: right;
 }
 
-.iconz .icon-section2 img {
-    display:inline-block;
-    
-}
-
- .icon-section2 {
-    float:right;
-    margin-left: 10px;
-   
-}
-
-.iconz {
-    display: flex;
-    margin-left: 440px;
-   
-}
-
-.print-img {
-    float:right;
-}
-
-.print-txt {
+.print-img, .print-txt {
     float:right;
 }
 
