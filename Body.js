@@ -1,1 +1,0 @@
-import pizza from '../assets/choco-pizza.png';

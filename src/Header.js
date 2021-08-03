@@ -18,7 +18,7 @@ class Header extends Component {
             <header>
                 <div id="header">
                     <div>
-                        <h2> Delicious </h2>
+                        <h1> Delicious </h1>
                         <h4> THE BEST FOOD BLOB ON THE WEB </h4>
                     </div>
                 </div>
