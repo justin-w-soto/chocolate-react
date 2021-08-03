@@ -7,9 +7,9 @@ function App() {
     return ( 
       <div className="App">
      <Header/>
-     <Body>
-       
-     </Body>
+     <Body/>
+
+     
      </div>
  );
   }

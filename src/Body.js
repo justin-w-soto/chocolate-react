@@ -27,7 +27,7 @@ class Body extends Component {
         <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. halve all of the figd and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
     </section>
     <section>
-        <img class="ingredients" src={list} slt="ingredients-list">
+        <img class="ingredients" src={list} alt="ingredients-list">
         </img>
     </section>
             </main>
